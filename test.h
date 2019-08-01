@@ -1,4 +1,8 @@
 #include <iostream>
+#include <unistd.h>
+
+int bleed;
+int direction;
 
 void pathRunOne();
 void pathHideOne();
@@ -16,3 +20,4 @@ void street();
 
 
 void end();
+void typewrite(std::string s);
