@@ -20,4 +20,6 @@ void street();
 
 
 void end();
+
 void typewrite(std::string s);
+void typewrite(std::string s, int y);

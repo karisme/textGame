@@ -157,7 +157,18 @@ void typewrite(string s){    // inspired by http://www.cplusplus.com/forum/unice
     while (s[x] != '\0'){
         cout << s[x];
         cout.flush();
-        usleep(20000);
+        usleep(10000);
+        x++;
+    }
+    cout <<endl;
+}
+
+void typewrite(string s, int y){    // inspired by http://www.cplusplus.com/forum/unices/23581/
+    int x = 0;
+    while (s[x] != '\0'){
+        cout << s[x];
+        cout.flush();
+        usleep(y);
         x++;
     }
     cout <<endl;
