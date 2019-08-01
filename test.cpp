@@ -60,11 +60,11 @@ void pathFightTwo() {
     typewrite("You spring out of the crate and luckily for you there are only two soldiers, and the one closest to you does not have a weapon.");
     typewrite("You grab him and choke him. The other one raises his weapon and you yell 'LOWER YOUR WEAPON OR HE DIES'");
     typewrite("You motion Kyouma to grab the other one's weapon...");
-    typewrite(". . .");
-    typewrite(". . .");
+    typewrite(". . .", slow);
+    typewrite(". . .", slow);
     typewrite("Kyouma takes the other soldier's gun.");
-    typewrite(". . .");
-    typewrite(". . .");
+    typewrite(". . .", slow);
+    typewrite(". . .", slow);
     typewrite("And points it to your face!");
 
     typewrite("You: How could you betray me?!"); 

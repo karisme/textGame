@@ -3,6 +3,7 @@
 
 int bleed;
 int direction;
+int slow = 300000;
 
 void pathRunOne();
 void pathHideOne();
