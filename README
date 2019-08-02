@@ -6,6 +6,8 @@ Ideas:
 -Make a maze to evade attackers at one point (use help from other projects)
 -Flesh out story (betrayal, different endings)
 
+Update::
+Added use of SFML library, make sure you have it installed if you plan on using this.
 
 Let's Go!
 
